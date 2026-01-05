@@ -1,20 +1,15 @@
 # Stopwatch
-A Simple Stopwatch implemented on an FPGA board using Verilog HDL.
+A Simple Stopwatch implemented on an FPGA board in Verilog HDL.
 
 
 
-# Time elapsed counter testbench simulation
+https://github.com/user-attachments/assets/363f51cf-bc92-4d77-8ea8-29f2da4883fe
 
-rst= 1 bit binary signal to reset count
 
-clk = 1-bit binary signal to toggle count
+# RTL Elaborated Design
 
-ss = 6 bit register(stores upto 59D secs) to store the seconds elapsed.
+<img width="1860" height="830" alt="image" src="https://github.com/user-attachments/assets/063f03c9-4952-41b8-ab9c-2988083fe28d" />
 
-mm = 6 bit register(stores upto 59D mins) to store the minutes elapsed.
-![image](https://github.com/user-attachments/assets/9b0a3a67-2826-40b8-883f-c7c3f5203f32)
+# Post Synthesis Schematic
 
-# Time elapsed counter Synthesized Schematic
-
-Uses 40 Buffers and LUTs in total
-![image](https://github.com/user-attachments/assets/d90e2acd-8ef0-4aa1-85bf-a8a1c7b8d5f3)
+<img width="1857" height="826" alt="image" src="https://github.com/user-attachments/assets/eeec4906-8a0a-4c77-b6a4-6d942a3c5d6e" />
